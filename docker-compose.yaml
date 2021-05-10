@@ -37,9 +37,9 @@ services:
     command: 
       - kafka-mirror-maker
       - --consumer.config
-      - /mirror-maker/mirrormaker-consumer.config
+      - /mirrormaker-consumer.config
       - --producer.config
-      - /mirror-maker/mirrormaker-producer.config
+      - /mirrormaker-producer.config
       - --whitelist
       - get.event.message.mirrormaker
       - –consumer-property security.protocol=SASL_PLAINTEXT
